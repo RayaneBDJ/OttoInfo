@@ -1,0 +1,54 @@
+<!DOCTYPE html> <!--Pour spécifier qu'on crée bien une page web html -->
+<html> <!--Englobe le code-->
+
+    <head> <!--L'en-tête pas affichée sur la page (titre, encodage(gestion des chars spéciaux etc))-->
+        <meta charset = "utf-8">
+        <title>OttoInfo</title>
+        <link rel="stylesheet" href = "{{url_for('static', filename = 'css/home_page.css')}}">
+    </head>
+
+
+    <body> <!-- tout ce qui sera codé ici sera affiché-->   
+        <img src="{{url_for('static', filename = 'images/Logo_OttoInfo.png')}}" id = "test_photo"/> 
+        <p>This page exists for You, the one who is passionate or just curious about the racing field 
+            and have the motivation to learn more about it !!!</p>
+        <br/>
+        <cite author="Michael Schumacher" date="21/07/1969">
+            <h2 style="color:Tomato;">'Once something is a passion, the motivation is there'</h2>
+            <br>
+        </cite>
+        <p>From <strong><a href="https://en.wikipedia.org/wiki/Michael_Schumacher">Michael Schumacher</a></strong>, one of the most famous German driver.
+            <br>
+            <br>
+            So if you have the passion, don't hesitate and try lo learn a lot on this website !
+        </p>
+        <br>    
+        <h2>The site is composed of multiple options, choose on what topic do you want informations !</h2>
+        <br>
+        <ul>
+            <select name = 'test' id="test">
+                <option value="0">Coureurs</option>
+                <option value="1">Écuries</option>
+                <option value="2">Circuits</option>
+            </select>
+            <button id="btn">Go !</button>
+        </ul>
+        <br/>
+        <p>Souhaitez-vous <a href="contact">nous contacter</a> ?</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <script>
+            const btn = document.querySelector('#btn');
+            const sb = document.querySelector('#test')
+            btn.onclick = (event) => {
+                if (sb.selectedIndex == 0){window.location='/coureurs/'}
+                else if (sb.selectedIndex == 1){window.location='/ecuries/'}
+                else if (sb.selectedIndex == 2){window.location='/circuits/'}
+                event.preventDefault();
+            };
+        </script>
+    </body>
+    
+</html>
