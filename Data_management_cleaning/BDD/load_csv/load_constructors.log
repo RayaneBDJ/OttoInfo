@@ -1,0 +1,56 @@
+
+SQL*Loader: Release 21.0.0.0.0 - Production on Sam. Déc. 31 02:54:59 2022
+Version 21.3.0.0.0
+
+Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
+
+Fichier de contrôle :   load_constructors.ctl
+Fichier de données :      C:\Users\rayan\Desktop\ESILV\A4\Software_Engineering\BDD\constructors_clean.csv
+  Fichier des enregistrements refusés :     constructors_clean.bad
+  Fichier de rebut :  aucune spécification
+
+ (Allouer tous les rebuts)
+
+Nombre à charger : ALL
+Nombre à ignorer : 0
+Erreurs autorisés : 50
+Tableau de variables :     250 lignes, maximum de 1048576 octets
+Continuation :    aucune spécification
+Chemin utilisé:      Classique
+
+Table CONSTRUCTOR, chargé à partir de chaque enregistrement physique.
+Option d'insertion en vigueur pour cette table : TRUNCATE
+option TRAILING NULLCOLS effective
+
+   Nom de colonne                  Position   Long  Type de données encadr.
+------------------------------ ---------- ----- ---- ---- ---------------------
+CONSTRUCTORID                       FIRST     *   ,       CHARACTER            
+CONSTRUCTORREF                       NEXT     *   ,       CHARACTER            
+NAME                                 NEXT     *   ,       CHARACTER            
+NATIONALITY                          NEXT     *   ,       CHARACTER            
+URL                                  NEXT     *   ,       CHARACTER            
+
+Enregistrement 1 : Rejeté - Erreur sur table CONSTRUCTOR, colonne CONSTRUCTORID.
+ORA-01722: Nombre non valide
+
+
+Table CONSTRUCTOR :
+  Chargement de 211 Lignes effectué.
+  1 Ligne : chargement impossible dû à des erreurs de données.
+  0 Lignes : chargement impossible car échec de toutes les clauses WHEN.
+  0 Lignes : chargement impossible car tous les champs étaient non renseignés.
+
+
+Espace affecté au tableau de variables :                 322500 octets(250 lignes)
+Octets de tampon de lecture : 1048576
+
+Nombre total d'enregistrements logiques ignorés :          0
+Nombre total d'enregistrements logiques lus :           212
+Nombre total d'enregistrements logiques rejetés :         1
+Nombre total d'enregistrements logiques mis au rebut :        0
+
+Le début de l'exécution a été effectué sur Sam. Déc.  31 02:54:59 2022
+La fin de l'exécution a été effectuée sur Sam. Déc.  31 02:55:06 2022
+
+Temps écoulé (ELAPSED) :     00:00:06.47
+Temps processeur (CPU) :    00:00:00.15

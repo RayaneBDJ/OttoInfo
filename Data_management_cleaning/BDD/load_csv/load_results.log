@@ -1,0 +1,198 @@
+
+SQL*Loader: Release 21.0.0.0.0 - Production on Ven. Déc. 30 04:48:56 2022
+Version 21.3.0.0.0
+
+Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
+
+Fichier de contrôle :   load_results.ctl
+Fichier de données :      C:\Users\rayan\Desktop\ESILV\A4\Software_Engineering\BDD\results_clean.csv
+  Fichier des enregistrements refusés :     results_clean.bad
+  Fichier de rebut :  aucune spécification
+
+ (Allouer tous les rebuts)
+
+Nombre à charger : ALL
+Nombre à ignorer : 0
+Erreurs autorisés : 50
+Tableau de variables :     250 lignes, maximum de 1048576 octets
+Continuation :    aucune spécification
+Chemin utilisé:      Classique
+
+Table RESULTS, chargé à partir de chaque enregistrement physique.
+Option d'insertion en vigueur pour cette table : TRUNCATE
+option TRAILING NULLCOLS effective
+
+   Nom de colonne                  Position   Long  Type de données encadr.
+------------------------------ ---------- ----- ---- ---- ---------------------
+RESULTID                            FIRST     *   ,       CHARACTER            
+RACEID                               NEXT     *   ,       CHARACTER            
+DRIVERID                             NEXT     *   ,       CHARACTER            
+CONSTRUCTORID                        NEXT     *   ,       CHARACTER            
+NUM_CAR                              NEXT     *   ,       CHARACTER            
+START_POS                            NEXT     *   ,       CHARACTER            
+FINAL_POS                            NEXT     *   ,       CHARACTER            
+POSITIONTEXT                         NEXT     *   ,       CHARACTER            
+POSITIONORDER                        NEXT     *   ,       CHARACTER            
+POINTS                               NEXT     *   ,       CHARACTER            
+NBR_LAPS                             NEXT     *   ,       CHARACTER            
+TIME_TOTAL                           NEXT     *   ,       CHARACTER            
+    chaîne SQL pour la colonne : "to_number(:time_total, '99999D999999', 'NLS_NUMERIC_CHARACTERS=''.,''')"
+NUM_FASTESTLAP                       NEXT     *   ,       CHARACTER            
+RANK                                 NEXT     *   ,       CHARACTER            
+FASTESTLAPTIME                       NEXT     *   ,       CHARACTER            
+    chaîne SQL pour la colonne : "to_number(:fastestLapTime, '99999D999999', 'NLS_NUMERIC_CHARACTERS=''.,''')"
+FASTESTLAPSPEED                      NEXT     *   ,       CHARACTER            
+    chaîne SQL pour la colonne : "to_number(:fastestLapSpeed, '99999D999999', 'NLS_NUMERIC_CHARACTERS=''.,''')"
+STATUSID                             NEXT     *   ,       CHARACTER            
+
+la valeur utilisée pour le paramètre ROWS est passée de 250 à 239
+Enregistrement 1 : Rejeté - Erreur sur table RESULTS, colonne RESULTID.
+ORA-01722: Nombre non valide
+
+Enregistrement 6984 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 6986 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 7578 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 7580 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 7582 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 10362 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 10365 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 10367 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 14237 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 14240 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 14242 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 14444 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 14447 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 14449 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 18385 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 18386 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 18887 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 18900 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 19060 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 19236 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 19269 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 19302 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 19303 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 19304 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 19305 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 19436 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 19530 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 19533 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 19594 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 19817 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 19818 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 20197 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 20214 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 20217 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 20239 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 20247 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 20248 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 20269 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 20272 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 25182 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 25184 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+Enregistrement 25191 : Rejeté - Erreur sur table RESULTS, colonne POINTS.
+ORA-01722: Nombre non valide
+
+
+Table RESULTS :
+  Chargement de 25618 Lignes effectué.
+  43 Lignes : chargement impossible dû à des erreurs de données.
+  0 Lignes : chargement impossible car échec de toutes les clauses WHEN.
+  0 Lignes : chargement impossible car tous les champs étaient non renseignés.
+
+
+Espace affecté au tableau de variables :                1048254 octets(239 lignes)
+Octets de tampon de lecture : 1048576
+
+Nombre total d'enregistrements logiques ignorés :          0
+Nombre total d'enregistrements logiques lus :         25661
+Nombre total d'enregistrements logiques rejetés :        43
+Nombre total d'enregistrements logiques mis au rebut :        0
+
+Le début de l'exécution a été effectué sur Ven. Déc.  30 04:48:56 2022
+La fin de l'exécution a été effectuée sur Ven. Déc.  30 04:49:04 2022
+
+Temps écoulé (ELAPSED) :     00:00:07.19
+Temps processeur (CPU) :    00:00:00.32
