@@ -1,0 +1,70 @@
+{% extends 'base_explorer.html'%}
+{% load static %}
+
+
+{% block content%}
+
+<div class="explorer">
+  
+    
+
+    <div class="group-13">
+      <div class="ellipse-1"></div>
+  
+      <div class="ellipse-13"></div>
+  
+      <div class="ellipse-12"></div>
+  
+      <div class="ellipse-11"></div>
+  
+      <div class="ellipse-10"></div>
+    </div>
+
+  
+    <div class="choisissez-les--l-ments-que-vous-souhaitez-conna-tre">
+      Filtrer à votre guise 
+    </div>
+  
+
+    <style>
+      .card_card-body
+      {
+        background-color:rgba(140, 46, 46, 0.75) 
+      }
+  
+    </style>
+  <div class = "row">
+    <div class ='col' >
+      <div class="card_card-body">
+        <form method="GET" action=".">
+        {{myFilter.form}}
+      </form>
+     </div>
+    </div>
+  </div>
+
+
+   
+   
+
+    <div class="choisissez-le-pilote"> Choisissez le pilote</div>
+    <div class=e1_25>
+      <div class=e1_26><span  class="e1_27">Voici les pilotes qui s'apparentent à votre recherche</span>
+          <div class=e1_33>
+            {% for driver in drivers|slice:":5" %}       
+                {% include 'personal/snippets/body_snippet.html' with value=driver %}
+            {% endfor%}
+            {{ nom_pilote }}
+        </div>
+      </div>
+    </div>
+  
+    
+  
+  
+    <div class="explorer-le-monde-de-la-f1">Explorer le monde de la F1</div>
+  
+  </div>
+  
+
+{% endblock content %}

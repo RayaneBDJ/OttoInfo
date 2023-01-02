@@ -1,0 +1,194 @@
+.explorer, .explorer * { box-sizing: border-box; }.explorer {
+      color: rgba(112.000000923872, 112.000000923872, 151.00000619888306, 1);
+      width: 1500px; height: 1927px;
+      position: relative;
+      top : 20px;
+    }
+ .rectangle-12 {
+      background: #f6f5fc;
+      width: 1360px; height: 500px;
+      position: absolute; 
+      left: 10px;
+      top: 72px;
+    }
+ .rectangle-9 {
+      background: #8c2e2e;
+      width: 1360px; height: 73px;
+      position: absolute; left: 0px;top: -1px;
+    }
+ .rectangle-1 {
+      position: absolute; left: 0px;top: 469px;
+      overflow: visible;
+    }
+ .rectangle-8 {
+      background: #8c2e2e;
+      width: 1360px; height: 339px;
+      position: absolute; left: 0px;top: 1588px;
+    }
+ .ottoinfo--une-plateforme-mise-en-place-pour-le-projet-de-software-engineering {
+      color: #ffffff;
+      text-align: center;
+      font: 600 48px/62.4px 'Open Sans', sans-serif;
+      position: absolute; left: 148px;top: 1718px;
+      width: 1064.64px; height: 65px;
+      display: flex;
+align-items: center;justify-content: center
+    }
+ .group-13 {
+      width: 1361px; height: 449px;
+      position: static;
+    }
+ .ellipse-1 {
+      background: #fd7b7b;
+      border-radius: 50%;
+      width: 449px; height: 449px;
+      position: absolute; left: 0px;top: 240px;
+    }
+ .ellipse-13 {
+      background: #fd7b7b;
+      border-radius: 50%;
+      width: 449px; height: 449px;
+      position: absolute; left: 912px;top: 240px;
+    }
+ .ellipse-12 {
+      background: #fd7b7b;
+      border-radius: 50%;
+      width: 449px; height: 449px;
+      position: absolute; left: 228px;top: 240px;
+    }
+ .ellipse-11 {
+      background: #fd7b7b;
+      border-radius: 50%;
+      width: 449px; height: 449px;
+      position: absolute; left: 456px;top: 240px;
+    }
+ .ellipse-10 {
+      background: #fd7b7b;
+      border-radius: 50%;
+      width: 449px; height: 449px;
+      position: absolute; left: 684px;top: 240px;
+    }
+ .group-7 {
+      width: 152.31px; 
+      height: 41px;
+      position: static;
+    }
+ .rectangle-10 {
+      background: #ffffff;
+      width: 152px; height: 41px;
+      position: absolute; left: 1021px;top: 15px;
+      box-shadow: inset -2px -2px 4px 0px rgba(205, 203, 203, 1.00);
+    }
+ .explorer2 {
+      color: #2e2f5e;
+      text-align: center;
+      font: 600 14px/18.9px 'Open Sans', sans-serif;
+      position: absolute;
+      right: 5px;
+      top: 7.5px;
+      width: 148.84px; height: 19px;
+      display: flex;
+      align-items: center;justify-content: center
+ 
+    }
+ .group-8 {
+      width: 152px; height: 41px;
+      position: static;
+    }
+ .rectangle-11 {
+  border: solid #ffffff; 
+  border-width: 2px;
+      width: 152px; height: 41px;
+      position: absolute; left: 1195px;top: 15px;
+    }
+ .nous-contacter {
+      color: #ffffff;
+      text-align: center;
+      font: 600 14px/18.9px 'Open Sans', sans-serif;
+      position: absolute;
+      left: 4px;
+      top: 7.5px;
+      width: 132.22px; height: 19px;
+      display: flex;
+      align-items: center;justify-content: center
+    }
+ .choisissez-les--l-ments-que-vous-souhaitez-conna-tre {
+      color: #2e2f5e;
+      text-align: left;
+      font: 700 45px/62px 'Open Sans', sans-serif;
+      position: absolute; left: 112px;top: 343px;
+      width: 567.57px; height: 84px;
+      display: flex;
+align-items: center;justify-content: flex-start
+    }
+ .format_attribut {
+      background: rgba(140, 46, 46, 0.75);
+      width: 1250px; height: 70px;
+      position: absolute; left: 113px;top: 499px;
+    }
+ .choisissez-le-pilote {
+      color: #2e2f5e;
+      text-align: right;
+      font: 700 45px/62px 'Open Sans', sans-serif;
+      position: absolute; left: 645px;top: 343px;
+      width: 567.57px; height: 84px;
+      display: flex;
+align-items: center;justify-content: flex-end
+    }
+ .format_pilote {
+      background: rgba(140, 46, 46, 0.75);
+      position: absolute; 
+   
+    }
+.e1_25 { 
+      box-shadow:0px 0px 25px rgba(46.000001057982445, 47.0000009983778, 94.0000019967556, 0.25);
+      background-color:rgba(248.0000004172325, 250.00000029802322, 253.0000001192093, 1);
+      width:1250px;
+      height:700px;
+      position:absolute;
+      left:50px;
+      top:750px;
+      border-top-left-radius:10px;
+      border-top-right-radius:10px;
+      border-bottom-left-radius:10px;
+      border-bottom-right-radius:10px;
+   }
+.e1_26 { 
+      width:450px;
+      height:325.984375px;
+      position:absolute;
+      left:30px;
+      top:30px;
+   }
+.e1_28 { 
+      width:450px;
+      height:268.75px;
+      position:absolute;
+      left:0px;
+      top:57.234375px;
+   }
+.e1_33 { 
+      width:309.296875px;
+      height:28px;
+      position:absolute;
+      left:0px;
+      top:58px;
+   }
+ .explorer-le-monde-de-la-f1 {
+      color: #2e2f5e;
+      text-align: left;
+      font: 700 55px/62px 'Open Sans', sans-serif;
+      position: absolute; left: 311px;top: 115px;
+      width: 738px; height: 82px;
+      display: flex;
+align-items: center;justify-content: flex-start
+    }
+ .ottoinfo-1 {
+      width: 157px; height: 72px;
+      position: absolute; left: 12px;top: 0px;
+    }
+    .card_card-body
+    {
+     background-color:rgba(140, 46, 46, 0.75);
+    }
+  

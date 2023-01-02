@@ -1,0 +1,60 @@
+{% extends 'base_home.html'%}
+{% load static %}
+
+{% block content %}
+
+<div style = "border: 2px solid #000;">
+    <h1>This is the body</h1>
+    <p>Here is where you put stuff that should be in the body of your website</p>
+
+
+    {% for question in questions %}       
+        {% include 'personal/snippets/body_snippet.html' with value=question %}
+    {% endfor%}
+
+</div>
+
+{% endblock content %}
+
+
+{% block accueil%}
+<div class=mode_page>
+      <div class=top_banner_position>
+        <div class=below_top_banner_position>
+          <div class=page_color>
+            <div class=e1_7>
+            <div class=e1_12>
+              <div class=e1_13><span  class="e1_14">OTTOINFO, LE BON OUTIL POUR VOTRE CURIOSITE</span>
+                <div class=e1_15>
+                  <div class=e1_16><span  class="accroche_1">Vous</span><span  class="accroche_3">par la Formule1 et vous êtes curieux</span><span  class="accroche_2">êtes passionné </span></div><span  class="sous_accroche">Faites afficher les tendances en fonction de plusieurs éléments sur les courses de F1.</span>
+                </div>
+              </div>
+              <div class=e1_25>
+                <div class=e1_26><span  class="e1_27">Explorer les courses de F1 gratuitement</span>
+                  <div class=e1_28>
+                    <div class=e1_33>
+                      <div class=e1_34><span  class="e1_35"></span></div>
+                    </div><span  class="e1_36">Effectuez autant de recherches que vous le souhaitez</span>
+                    <div class=e1_37>
+                      <div class=e1_38><span  class="e1_39"></span></div>
+                    </div><span  class="e1_40">Regarder les résultats de vos recherches à travers des graphiques</span><span  class="e1_32">Allez sur la page “Explorer”</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="e3_800"></div>
+            <div class=e3_791>
+              <img  class="ei3_791_3_696" src={% static 'pexels-jenda-kube--13641535-1.png' %}>
+              <div class="ei3_791_3_693"></div>
+              <div class="ei3_791_3_694"></div>
+              <div class="ei3_791_3_695"></div>
+              <div class="ei3_791_3_697"></div>
+              <div class="ei3_791_3_698"></div>
+              <div class="ei3_791_3_699"></div>
+              <div class="ei3_791_3_700"></div>
+            </div>
+          </div>
+
+</div>
+
+{%endblock accueil%}

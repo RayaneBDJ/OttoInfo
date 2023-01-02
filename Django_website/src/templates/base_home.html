@@ -1,0 +1,61 @@
+
+{% load static %}
+
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="{% static 'style_home.css' %}">
+        <div class=top_banner_position>
+            <div class=e1_456>
+              <div class=e1_457>
+                <button class="button_explorer"><span  class="text_explorer"><a href="http://127.0.0.1:8000/explorer">Explorer</a></span></button>
+                <button class="button_contact"><span  class="text_contact"><a href="http://127.0.0.1:8000/contact">Contact</a></span></button>
+              </div>
+            </div>
+           <img class=image-ottoinfo-1 src={% static 'ottoinfo-1.png' %}>
+        </div>
+    </head>
+
+
+    <body>
+
+      <style type = "text/css">
+        .main{
+          min.height:100vh;
+          height: 100%;
+        }
+      </style>
+    
+      <div class = "main">
+        {% block accueil %}
+
+        {%endblock %}
+      </div>
+
+
+    </body>
+
+    <footer>
+      <div class=e1_206>
+        <div class=e1_207>
+          <div class=e1_210>
+            <div class=e1_211>
+              <div class=e1_212><span  class="e1_213">MODIF</span></div><span  class="e1_214">De visiteurs chaque mois sur nos pages</span>
+            </div>
+            <div class=e1_215>
+              <div class=e1_216><span  class="e1_217">MODIF</span></div><span  class="e1_218">D’euros collectés au profit des associations depuis 2009</span>
+            </div>
+            <div class=e1_219><span  class="e1_222">Qui vous accompagnent au sein de notre équipe</span><span  class="e1_221">MODIF</span></div>
+          </div><span  class="e1_223">OttoInfo, une plateforme qui compte ...</span>
+        </div>
+      </div>
+    </div>
+  </div>
+    </footer>
+</html>
+
