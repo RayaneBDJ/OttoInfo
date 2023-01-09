@@ -5,10 +5,8 @@
 {% block content%}
 
 <div class="explorer">
-  
-    
 
-    <div class="group-13">
+    <div class="group-12">
       <div class="ellipse-1"></div>
   
       <div class="ellipse-13"></div>
@@ -22,39 +20,54 @@
 
   
     <div class="choisissez-les--l-ments-que-vous-souhaitez-conna-tre">
-      Filtrer à votre guise 
+      Filtrez à votre guise et 
     </div>
   
 
     <style>
       .card_card-body
       {
-        background-color:rgba(140, 46, 46, 0.75) 
+        background-color:rgb(229, 220, 232);
+        left:250px;
+        height:300x;
+      }
+      .row
+      {
+        width:578px;
+        
+      }
+      .col
+      {
+        left:420px;
       }
   
     </style>
-  <div class = "row">
-    <div class ='col' >
-      <div class="card_card-body">
-        <form method="GET" action=".">
-        {{myFilter.form}}
+
+
+    <div class="group-13">
+
+      <form method="get">
+        {{ filter.form.as_p }}
+        <button type="submit">Search</button>
       </form>
-     </div>
+
     </div>
-  </div>
 
 
+  
+
+
+    <div class="explorer-le-monde-de-la-f1">Explorer le monde de la F1</div>
    
    
 
-    <div class="choisissez-le-pilote"> Choisissez le pilote</div>
+    <div class="choisissez-le-pilote">Retrouvez vos pilotes préférés</div>
     <div class=e1_25>
       <div class=e1_26><span  class="e1_27">Voici les pilotes qui s'apparentent à votre recherche</span>
           <div class=e1_33>
-            {% for driver in drivers|slice:":5" %}       
+            {%  for driver in filter.qs|slice:7%}       
                 {% include 'personal/snippets/body_snippet.html' with value=driver %}
             {% endfor%}
-            {{ nom_pilote }}
         </div>
       </div>
     </div>
@@ -62,7 +75,7 @@
     
   
   
-    <div class="explorer-le-monde-de-la-f1">Explorer le monde de la F1</div>
+
   
   </div>
   

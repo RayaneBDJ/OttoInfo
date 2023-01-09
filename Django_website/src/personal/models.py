@@ -36,6 +36,9 @@ class Drivers(models.Model):
     class Meta:
         managed = False
         db_table = 'drivers'
+        
+    '''def __str__(self) :
+        return '''
 
 
 class Circuits(models.Model):

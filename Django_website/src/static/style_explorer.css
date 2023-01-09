@@ -4,6 +4,7 @@
       position: relative;
       top : 20px;
     }
+
  .rectangle-12 {
       background: #f6f5fc;
       width: 1360px; height: 500px;
@@ -34,39 +35,60 @@
       display: flex;
 align-items: center;justify-content: center
     }
- .group-13 {
+ .group-12 {
       width: 1361px; height: 449px;
-      position: static;
+      position: absolute;
+      top : 50px;
+    }
+.position_button
+{
+      width: 100px; height: 100px;
+      position: absolute;
+      top : 200px;
+      left : 500px;
+}
+.position_connu
+{
+   width: 100px; height: 100px;
+   position: absolute;
+   top : 180px;
+   left : 250px;
+}
+.group-13 {
+      width: 1000px; height: 1000px;
+      position: absolute;
+      left :500px;
+      top : 150px;
     }
  .ellipse-1 {
       background: #fd7b7b;
       border-radius: 50%;
       width: 449px; height: 449px;
-      position: absolute; left: 0px;top: 240px;
+      position: absolute; left: 0px;
     }
  .ellipse-13 {
       background: #fd7b7b;
       border-radius: 50%;
       width: 449px; height: 449px;
-      position: absolute; left: 912px;top: 240px;
+      position: absolute; left: 912px;
     }
  .ellipse-12 {
       background: #fd7b7b;
       border-radius: 50%;
       width: 449px; height: 449px;
-      position: absolute; left: 228px;top: 240px;
+      position: absolute; left: 228px;
     }
  .ellipse-11 {
       background: #fd7b7b;
       border-radius: 50%;
       width: 449px; height: 449px;
-      position: absolute; left: 456px;top: 240px;
+      position: absolute; left: 456px;
     }
  .ellipse-10 {
       background: #fd7b7b;
       border-radius: 50%;
       width: 449px; height: 449px;
-      position: absolute; left: 684px;top: 240px;
+      position: absolute; left: 684px;
     }
  .group-7 {
       width: 152.31px; 
@@ -113,13 +135,13 @@ align-items: center;justify-content: center
       align-items: center;justify-content: center
     }
  .choisissez-les--l-ments-que-vous-souhaitez-conna-tre {
-      color: #2e2f5e;
-      text-align: left;
-      font: 700 45px/62px 'Open Sans', sans-serif;
-      position: absolute; left: 112px;top: 343px;
-      width: 567.57px; height: 84px;
-      display: flex;
-align-items: center;justify-content: flex-start
+   color: #2e2f5e;
+   text-align: right;
+   font: 700 45px/62px 'Open Sans', sans-serif;
+   position: absolute; left: -140px;top: 60px;
+   width: 700px; height: 100px;
+   display: flex;
+align-items: center;justify-content: flex-end
     }
  .format_attribut {
       background: rgba(140, 46, 46, 0.75);
@@ -130,8 +152,8 @@ align-items: center;justify-content: flex-start
       color: #2e2f5e;
       text-align: right;
       font: 700 45px/62px 'Open Sans', sans-serif;
-      position: absolute; left: 645px;top: 343px;
-      width: 567.57px; height: 84px;
+      position: absolute; left: 520px;top: 60px;
+      width: 700px; height: 100px;
       display: flex;
 align-items: center;justify-content: flex-end
     }
@@ -147,7 +169,8 @@ align-items: center;justify-content: flex-end
       height:700px;
       position:absolute;
       left:50px;
-      top:750px;
+      top:650px;
+   
       border-top-left-radius:10px;
       border-top-right-radius:10px;
       border-bottom-left-radius:10px;
@@ -168,7 +191,7 @@ align-items: center;justify-content: flex-end
       top:57.234375px;
    }
 .e1_33 { 
-      width:309.296875px;
+      width:1000px;
       height:28px;
       position:absolute;
       left:0px;
@@ -178,7 +201,7 @@ align-items: center;justify-content: flex-end
       color: #2e2f5e;
       text-align: left;
       font: 700 55px/62px 'Open Sans', sans-serif;
-      position: absolute; left: 311px;top: 115px;
+      position: absolute; left: 311px;top: -50px;
       width: 738px; height: 82px;
       display: flex;
 align-items: center;justify-content: flex-start
@@ -187,8 +210,8 @@ align-items: center;justify-content: flex-start
       width: 157px; height: 72px;
       position: absolute; left: 12px;top: 0px;
     }
-    .card_card-body
+.card_card-body
     {
-     background-color:rgba(140, 46, 46, 0.75);
+     background-color:rgb(229, 204, 232);
     }
   

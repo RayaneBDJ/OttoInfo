@@ -521,7 +521,7 @@
 }
 .e1_213 { 
 	color:rgba(255, 255, 255, 1);
-	width:281.20013427734375px;
+	width:400px;
 	height:98px;
 	position:absolute;
 	left:0px;
@@ -554,7 +554,7 @@
 }
 .e1_216 { 
 	background-color:rgba(253.0000001192093, 123.0000002682209, 123.0000002682209, 1);
-	width:301px;
+	width:400px;
 	height:21px;
 	position:absolute;
 	left:0px;
@@ -566,7 +566,7 @@
 }
 .e1_217 { 
 	color:rgba(255, 255, 255, 1);
-	width:301.5999450683594px;
+	width:400px;
 	height:98px;
 	position:absolute;
 	left:0px;
@@ -624,7 +624,7 @@
 }
 .e1_221 { 
 	color:rgba(255, 255, 255, 1);
-	width:308.96563720703125px;
+	width:400;
 	height:98px;
 	position:absolute;
 	left:0px;
@@ -743,12 +743,41 @@
 	letter-spacing:0;
 	line-height:px;
 }
+.button_vizu
+{ 
+	border:1px solid rgba(255, 255, 255, 1);
+}
+.button_vizu
+{
+	background-color:rgba(255, 255, 255, 1);
+	width:226.875px;
+	height:44.890625px;
+	position:absolute;
+	left:265px;
+	top:10.65625px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+
+
+}
+.text_vizu
+{
+	color:rgba(255, 255, 255, 1);
+	width:150px;
+	height:19px;
+	position:absolute;
+	left:35px;
+	top:11.953125px;
+	font-family:Open Sans;
+	text-align:center;
+	font-size:14px;
+	letter-spacing:0;
+	line-height:px;
+
+}
 .ottoinfo-1 {
 	width: 157px; height: 72px;
 	position: absolute; left: 12px;top: 0px;
-  }
-
-.card_card-body
-  {
-	background-color:rgba(140, 46, 46, 0.75);
   }

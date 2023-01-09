@@ -19,12 +19,14 @@ from django.urls import path
 from src.personal.views import (
     home_screen_view,
     explorer_screen,
-    contact_screen
+    contact_screen,
+    vizu_screen
 )
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',home_screen_view),
     path('explorer/',explorer_screen),
-    path('contact/',contact_screen)
+    path('contact/',contact_screen),
+    path('vizu/',vizu_screen)
 ]
