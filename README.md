@@ -10,5 +10,5 @@ The other ones are just test files (HTML/CSS folder fo example contains just tes
 
 # Result 
 
-[![Watch the video](https://www.figma.com/file/FNg9acZqBfdblgjiKxiObk/Otto-Info?node-id=3%3A772&t=kyehlpLILae1Xazh-4)](https://youtu.be/EAnrMVKconY)
+[![Watch the video](https://ibb.co/XYcXtzQ)](https://youtu.be/EAnrMVKconY)
 
